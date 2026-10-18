@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://mcw18hihyjkg"
-path="res://.godot/imported/door1_spritesheet.png-f023fd07a2a4688caa47ad272bb18389.ctex"
+uid="uid://cosg4r7lcc8i"
+path="res://.godot/imported/house_tileset_001.png-aa4c236ebf4a6c66e3703a43e5e1a32f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/map_house_start/door1_spritesheet.png"
-dest_files=["res://.godot/imported/door1_spritesheet.png-f023fd07a2a4688caa47ad272bb18389.ctex"]
+source_file="res://assets/sprites/map_house_start/house_tileset_001.png"
+dest_files=["res://.godot/imported/house_tileset_001.png-aa4c236ebf4a6c66e3703a43e5e1a32f.ctex"]
 
 [params]
 

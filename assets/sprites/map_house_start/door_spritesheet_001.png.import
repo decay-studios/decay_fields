@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0xbstcr3mjvl"
-path="res://.godot/imported/door1_spritesheet_new.png-1df276021fd66dbe494fc2d11247c29c.ctex"
+uid="uid://bsmg71oflmcln"
+path="res://.godot/imported/door_spritesheet_001.png-92da8fc2c5a7f9e100603dc5538b2590.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/map_house_start/door1_spritesheet_new.png"
-dest_files=["res://.godot/imported/door1_spritesheet_new.png-1df276021fd66dbe494fc2d11247c29c.ctex"]
+source_file="res://assets/sprites/map_house_start/door_spritesheet_001.png"
+dest_files=["res://.godot/imported/door_spritesheet_001.png-92da8fc2c5a7f9e100603dc5538b2590.ctex"]
 
 [params]
 
