@@ -1,7 +1,0 @@
-[gd_resource type="StyleBoxTexture" format=3 uid="uid://d3a67n8cntpub"]
-
-[ext_resource type="Texture2D" uid="uid://gr3487lr5ay5" path="res://Assets/Sprites/essential/essential_spritesheet_v2.png" id="1_pjgaj"]
-
-[resource]
-texture = ExtResource("1_pjgaj")
-region_rect = Rect2(0, 64, 96, 32)
