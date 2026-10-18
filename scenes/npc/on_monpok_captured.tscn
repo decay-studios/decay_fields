@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://titfgcjosssa"]
 
 [ext_resource type="Script" uid="uid://cydmbmrs0mh1l" path="res://script/npc/on_monpok_captured.gd" id="1_i4ija"]
-[ext_resource type="Texture2D" uid="uid://baet2sdlkyumn" path="res://assets/sprites/objects/catch_sprite.png" id="2_i4ija"]
+[ext_resource type="Texture2D" uid="uid://ckbfrry1r5l2" path="res://assets/sprites/objects/catch_sprite.png" id="2_i4ija"]
 [ext_resource type="StyleBox" uid="uid://dl16rvfnw7n3k" path="res://assets/styles/Buttons/Normal.tres" id="3_8u714"]
 [ext_resource type="StyleBox" uid="uid://d3a67n8cntpub" path="res://assets/styles/Buttons/PressedandHovered.tres" id="4_8u714"]
 

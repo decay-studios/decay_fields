@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://di6f1jfdwl30j" path="res://scenes/npc/Monpok04.tscn" id="3_p5t7q"]
 [ext_resource type="PackedScene" uid="uid://cl5rhmb1yrb62" path="res://scenes/npc/Monpok05.tscn" id="4_f0c2b"]
 [ext_resource type="PackedScene" uid="uid://b2kj25jq1rl3a" path="res://scenes/npc/Monpok03.tscn" id="4_iit7r"]
-[ext_resource type="Texture2D" uid="uid://kvrcolg2qpad" path="res://assets/sprites/tiles/grass_high_01.png" id="5_s7o1h"]
+[ext_resource type="Texture2D" uid="uid://c5o748e4cwdj8" path="res://assets/sprites/tiles/grass_high_01.png" id="5_s7o1h"]
 
 [node name="MonpokSpawnMediumland" type="Node2D" unique_id=879540320]
 script = ExtResource("1_p5t7q")

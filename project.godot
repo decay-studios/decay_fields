@@ -15,8 +15,8 @@ run/main_scene="uid://drmrayqpc02hp"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 boot_splash/stretch_mode=4
 boot_splash/use_filter=false
-boot_splash/image="uid://cueve0igu4btq"
-config/icon="uid://cueve0igu4btq"
+boot_splash/image="uid://wjba5ji847n8"
+config/icon="uid://wjba5ji847n8"
 
 [autoload]
 

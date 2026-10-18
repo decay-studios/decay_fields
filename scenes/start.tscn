@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://uhhyawe5y67t"]
 
-[ext_resource type="Script" uid="uid://cc7avmko8i3vu" path="res://script/ui/start.gd" id="1_3bxa3"]
+[ext_resource type="Script" uid="uid://df4evypamom1v" path="res://script/ui/start.gd" id="1_3bxa3"]
 [ext_resource type="PackedScene" path="res://scenes/world/maps/map_world_monpok.res" id="2_iceld"]
 [ext_resource type="PackedScene" uid="uid://soeyg2w5qwpb" path="res://scenes/debug/npc_test.tscn" id="3_5ogh5"]
-[ext_resource type="PackedScene" uid="uid://b8flrbrhqyhi7" path="res://scenes/world/maps/map_house_start.res" id="4_7pwkw"]
+[ext_resource type="PackedScene" path="res://scenes/world/maps/map_house_start.res" id="4_7pwkw"]
 [ext_resource type="Script" uid="uid://cs5b0cis7llst" path="res://script/ui/start_anim.gd" id="5_iceld"]
 [ext_resource type="StyleBox" uid="uid://dl16rvfnw7n3k" path="res://assets/styles/Buttons/Normal.tres" id="5_o3wvq"]
-[ext_resource type="Texture2D" uid="uid://cueve0igu4btq" path="res://assets/sprites/essential/essential_logo_1.1.png" id="6_7pwkw"]
+[ext_resource type="Texture2D" uid="uid://wjba5ji847n8" path="res://assets/sprites/essential/essential_logo_1.1.png" id="6_7pwkw"]
 [ext_resource type="StyleBox" uid="uid://d3a67n8cntpub" path="res://assets/styles/Buttons/PressedandHovered.tres" id="6_pg4io"]
 
 [node name="Start" type="Control" unique_id=224544571]
