@@ -4,7 +4,7 @@
 <summary><b>View Info</b></summary>
 <br>
 
-Decay Fields is a 2D Pixel Art game which is still in the phase of beginning developing. I will tell you nothing about it except the developers are @Benjamin-306 and @JustinCase-306.
+Decay Fields is a 2D Pixel Art game which is still in the phase of beginning developing. We will tell you nothing about it except the developers are @Benjamin-306 and @JustinCase-306.
 
 </details>
 
