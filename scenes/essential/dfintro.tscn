@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cj2pnwd8cohko"]
 
-[ext_resource type="VideoStream" uid="uid://ch1w7jfjkfkmu" path="res://Assets/video/essential/essential_dfintro.ogv" id="1_76q32"]
+[ext_resource type="VideoStream" uid="uid://ch1w7jfjkfkmu" path="res://assets/video/essential/essential_dfintro.ogv" id="1_76q32"]
 [ext_resource type="Script" uid="uid://cic1omnqgbj5j" path="res://script/essential/dfintro.gd" id="1_it6g2"]
 
 [node name="dfintro" type="CanvasLayer" unique_id=2084685648]

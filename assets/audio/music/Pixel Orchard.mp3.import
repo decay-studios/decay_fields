@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://c3h0gh0xptpfg"
-path="res://.godot/imported/Pixel Orchard.mp3-9ca0f5746a7207c4f8f353067490522d.mp3str"
+path="res://.godot/imported/Pixel Orchard.mp3-385a05d384fe256f7a9ea304c06c671a.mp3str"
 
 [deps]
 
-source_file="res://Assets/audio/music/Pixel Orchard.mp3"
-dest_files=["res://.godot/imported/Pixel Orchard.mp3-9ca0f5746a7207c4f8f353067490522d.mp3str"]
+source_file="res://assets/audio/music/Pixel Orchard.mp3"
+dest_files=["res://.godot/imported/Pixel Orchard.mp3-385a05d384fe256f7a9ea304c06c671a.mp3str"]
 
 [params]
 

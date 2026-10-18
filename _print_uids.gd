@@ -2,9 +2,9 @@ extends SceneTree
 
 func _init() -> void:
 	var paths := [
-		"res://Scenes/world/maps/map_world_monpok.res",
-		"res://Scenes/world/maps/map_house_start.res",
-		"res://Scenes/ui/start.tscn",
+		"res://scenes/world/maps/map_world_monpok.res",
+		"res://scenes/world/maps/map_house_start.res",
+		"res://scenes/ui/start.tscn",
 	]
 	for p in paths:
 		var id := ResourceLoader.get_resource_uid(p)

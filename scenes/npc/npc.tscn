@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://ce2tqbhdypsiw"]
 
-[ext_resource type="Texture2D" uid="uid://bu54usw472441" path="res://Assets/Sprites/essential/essential_spritesheet_new.png" id="1_acqhf"]
+[ext_resource type="Texture2D" uid="uid://bu54usw472441" path="res://assets/sprites/essential/essential_spritesheet_new.png" id="1_acqhf"]
 [ext_resource type="Script" uid="uid://b8tun3upc4fwb" path="res://script/npc/npc.gd" id="1_xxsvc"]
-[ext_resource type="PackedScene" uid="uid://bh103fta4iryv" path="res://Scenes/npc/speech_bubble.tscn" id="3_g6unj"]
+[ext_resource type="PackedScene" uid="uid://bh103fta4iryv" path="res://scenes/npc/speech_bubble.tscn" id="3_g6unj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hhfpc"]
 size = Vector2(16, 16)

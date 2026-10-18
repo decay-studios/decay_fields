@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://c6qcbj2evfgq1"]
 
 [ext_resource type="Script" uid="uid://bushmhpjfgtuh" path="res://script/world/monpok_spawn.gd" id="1_exk6n"]
-[ext_resource type="PackedScene" uid="uid://csxfppky5ik01" path="res://Scenes/npc/Monpok01.tscn" id="2_q8n5x"]
-[ext_resource type="PackedScene" uid="uid://brgt63pxlitfb" path="res://Scenes/npc/Monpok02.tscn" id="3_kiyau"]
-[ext_resource type="PackedScene" uid="uid://b2kj25jq1rl3a" path="res://Scenes/npc/Monpok03.tscn" id="4_6r20x"]
-[ext_resource type="Texture2D" uid="uid://kvrcolg2qpad" path="res://Assets/Sprites/tiles/grass_high_01.png" id="5_snhkn"]
+[ext_resource type="PackedScene" uid="uid://csxfppky5ik01" path="res://scenes/npc/Monpok01.tscn" id="2_q8n5x"]
+[ext_resource type="PackedScene" uid="uid://brgt63pxlitfb" path="res://scenes/npc/Monpok02.tscn" id="3_kiyau"]
+[ext_resource type="PackedScene" uid="uid://b2kj25jq1rl3a" path="res://scenes/npc/Monpok03.tscn" id="4_6r20x"]
+[ext_resource type="Texture2D" uid="uid://kvrcolg2qpad" path="res://assets/sprites/tiles/grass_high_01.png" id="5_snhkn"]
 
 [node name="MonpokSpawnGrassland" type="Node2D" unique_id=879540320]
 script = ExtResource("1_exk6n")

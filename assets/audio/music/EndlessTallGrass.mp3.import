@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://kxcjxgi36ych"
-path="res://.godot/imported/EndlessTallGrass.mp3-086a3e8f58af3f4ff04c2da8d5c20d00.mp3str"
+path="res://.godot/imported/EndlessTallGrass.mp3-90f533cdc3367caf493dda640ef480c4.mp3str"
 
 [deps]
 
-source_file="res://Assets/audio/music/EndlessTallGrass.mp3"
-dest_files=["res://.godot/imported/EndlessTallGrass.mp3-086a3e8f58af3f4ff04c2da8d5c20d00.mp3str"]
+source_file="res://assets/audio/music/EndlessTallGrass.mp3"
+dest_files=["res://.godot/imported/EndlessTallGrass.mp3-90f533cdc3367caf493dda640ef480c4.mp3str"]
 
 [params]
 

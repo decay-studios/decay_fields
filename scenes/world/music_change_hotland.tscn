@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bwib5bbeng15g"]
 
 [ext_resource type="Script" uid="uid://biscjrcjyu8w6" path="res://script/world/music_change_by_area.gd" id="1_g8awj"]
-[ext_resource type="AudioStream" uid="uid://sexa8enexman" path="res://Assets/audio/music/PixelOven1.mp3" id="2_ogvx8"]
+[ext_resource type="AudioStream" uid="uid://sexa8enexman" path="res://assets/audio/music/PixelOven1.mp3" id="2_ogvx8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hhfpc"]
 size = Vector2(16, 16)

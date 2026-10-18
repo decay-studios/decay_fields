@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://cpvc6vic6br81"
-path="res://.godot/imported/Endless Tall Grass(1).mp3-15dde81c9ca1b1e545833abcc9b673d9.mp3str"
+path="res://.godot/imported/Endless Tall Grass(1).mp3-0539fae34b31532c3cbb79326ece7a1e.mp3str"
 
 [deps]
 
-source_file="res://Assets/audio/music/Endless Tall Grass(1).mp3"
-dest_files=["res://.godot/imported/Endless Tall Grass(1).mp3-15dde81c9ca1b1e545833abcc9b673d9.mp3str"]
+source_file="res://assets/audio/music/Endless Tall Grass(1).mp3"
+dest_files=["res://.godot/imported/Endless Tall Grass(1).mp3-0539fae34b31532c3cbb79326ece7a1e.mp3str"]
 
 [params]
 

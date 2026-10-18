@@ -26,7 +26,7 @@ func _on_quit_pressed() -> void:
 
 func _on_game_menu_pressed() -> void:
 	save()
-	get_tree().change_scene_to_file("res://Scenes/ui/start.tscn")
+	get_tree().change_scene_to_file("res://scenes/ui/start.tscn")
 	
 func save() -> void:
 	var scene_path = get_tree().current_scene.scene_file_path

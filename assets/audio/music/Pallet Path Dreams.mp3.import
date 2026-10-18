@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://ct67egud4c6q"
-path="res://.godot/imported/Pallet Path Dreams.mp3-2eaa44ef453a341712bfb2dbf94379bf.mp3str"
+path="res://.godot/imported/Pallet Path Dreams.mp3-14cf8dd7d8a43168a626479cf03a96d7.mp3str"
 
 [deps]
 
-source_file="res://Assets/audio/music/Pallet Path Dreams.mp3"
-dest_files=["res://.godot/imported/Pallet Path Dreams.mp3-2eaa44ef453a341712bfb2dbf94379bf.mp3str"]
+source_file="res://assets/audio/music/Pallet Path Dreams.mp3"
+dest_files=["res://.godot/imported/Pallet Path Dreams.mp3-14cf8dd7d8a43168a626479cf03a96d7.mp3str"]
 
 [params]
 

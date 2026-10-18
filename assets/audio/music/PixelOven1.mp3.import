@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://sexa8enexman"
-path="res://.godot/imported/PixelOven1.mp3-ed38134eabdad7b08c2ffaa6e32ad197.mp3str"
+path="res://.godot/imported/PixelOven1.mp3-bb3b3364a6a021a80a64be29a70bfa59.mp3str"
 
 [deps]
 
-source_file="res://Assets/audio/music/PixelOven1.mp3"
-dest_files=["res://.godot/imported/PixelOven1.mp3-ed38134eabdad7b08c2ffaa6e32ad197.mp3str"]
+source_file="res://assets/audio/music/PixelOven1.mp3"
+dest_files=["res://.godot/imported/PixelOven1.mp3-bb3b3364a6a021a80a64be29a70bfa59.mp3str"]
 
 [params]
 

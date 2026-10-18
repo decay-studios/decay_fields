@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://kchbd78ssfqm"
-path="res://.godot/imported/Pallet Route Loop(1).mp3-74fdfee7075b0f80e7088200d2b85688.mp3str"
+path="res://.godot/imported/Pallet Route Loop(1).mp3-50038f4dcfdd3f927379925c05a768e7.mp3str"
 
 [deps]
 
-source_file="res://Assets/audio/music/Pallet Route Loop(1).mp3"
-dest_files=["res://.godot/imported/Pallet Route Loop(1).mp3-74fdfee7075b0f80e7088200d2b85688.mp3str"]
+source_file="res://assets/audio/music/Pallet Route Loop(1).mp3"
+dest_files=["res://.godot/imported/Pallet Route Loop(1).mp3-50038f4dcfdd3f927379925c05a768e7.mp3str"]
 
 [params]
 

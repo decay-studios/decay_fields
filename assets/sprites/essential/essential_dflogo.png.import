@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3yv02fvi07hf"
-path="res://.godot/imported/essential_dflogo.png-1cbf8bf7a392ee7c424071ef96e1a21b.ctex"
+path="res://.godot/imported/essential_dflogo.png-8f990378525b2f19e1c95d77cbb86146.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/essential/essential_dflogo.png"
-dest_files=["res://.godot/imported/essential_dflogo.png-1cbf8bf7a392ee7c424071ef96e1a21b.ctex"]
+source_file="res://assets/sprites/essential/essential_dflogo.png"
+dest_files=["res://.godot/imported/essential_dflogo.png-8f990378525b2f19e1c95d77cbb86146.ctex"]
 
 [params]
 

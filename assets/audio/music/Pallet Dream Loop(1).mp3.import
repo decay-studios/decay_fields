@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://0ula2k6di82l"
-path="res://.godot/imported/Pallet Dream Loop(1).mp3-2df81ebfce8470d7bfbb09f4df30ee7b.mp3str"
+path="res://.godot/imported/Pallet Dream Loop(1).mp3-9cbd46a658da53cf6b78167aafc2fda8.mp3str"
 
 [deps]
 
-source_file="res://Assets/audio/music/Pallet Dream Loop(1).mp3"
-dest_files=["res://.godot/imported/Pallet Dream Loop(1).mp3-2df81ebfce8470d7bfbb09f4df30ee7b.mp3str"]
+source_file="res://assets/audio/music/Pallet Dream Loop(1).mp3"
+dest_files=["res://.godot/imported/Pallet Dream Loop(1).mp3-9cbd46a658da53cf6b78167aafc2fda8.mp3str"]
 
 [params]
 
