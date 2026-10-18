@@ -29,7 +29,7 @@ Press <kbd>E</kbd> or the <kbd>I</kbd> button top left to open your inventory.
 ***Graphics:***
 - **Tilesets:** JustinCase-306
 - **Animations:** JustinCase-306
-- 
+
 ***Sound:***
 - **Sounddesign:** JustinCase-306
 - *thanks to [StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) and [ComfyUI](https://github.com/Comfy-Org/ComfyUI) for the audio and SFX.*
