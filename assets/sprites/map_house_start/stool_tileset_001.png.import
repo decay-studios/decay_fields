@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://x85hudju1mal"
-path="res://.godot/imported/stool1_tileset.png-2a4bef9c7c5ae051f758a0011533a157.ctex"
+uid="uid://etyafwj1wa1t"
+path="res://.godot/imported/stool_tileset_001.png-9261bc239628f6298940847b0fa5e7ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/map_house_start/stool1_tileset.png"
-dest_files=["res://.godot/imported/stool1_tileset.png-2a4bef9c7c5ae051f758a0011533a157.ctex"]
+source_file="res://assets/sprites/map_house_start/stool_tileset_001.png"
+dest_files=["res://.godot/imported/stool_tileset_001.png-9261bc239628f6298940847b0fa5e7ea.ctex"]
 
 [params]
 
