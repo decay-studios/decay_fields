@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bgnqcc3ckl4s5"]
 
-[ext_resource type="Script" uid="uid://biscjrcjyu8w6" path="res://script/world/music_change_by_area.gd" id="1_xtx6c"]
-[ext_resource type="AudioStream" uid="uid://kxcjxgi36ych" path="res://assets/audio/music/EndlessTallGrass.mp3" id="2_qimdv"]
+[ext_resource type="Script" uid="uid://bs5bm7km3g4ut" path="res://script/world/music_change_by_area.gd" id="1_xtx6c"]
+[ext_resource type="AudioStream" uid="uid://crtd2lpabdovr" path="res://assets/audio/music/EndlessTallGrass.mp3" id="2_qimdv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hhfpc"]
 size = Vector2(16, 16)
