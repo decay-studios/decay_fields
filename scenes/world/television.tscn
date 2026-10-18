@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bfnyo2r4owyum"]
 
-[ext_resource type="VideoStream" uid="uid://ci67nrh8fjakd" path="res://Assets/video/test/FIRST LOOK THE ICE CAVES  Minecraft LIVE – SEPT 2026.ogv" id="1_3612m"]
+[ext_resource type="VideoStream" uid="uid://ci67nrh8fjakd" path="res://assets/video/test/FIRST LOOK THE ICE CAVES  Minecraft LIVE – SEPT 2026.ogv" id="1_3612m"]
 
 [node name="Television" type="Node2D" unique_id=823584922]
 

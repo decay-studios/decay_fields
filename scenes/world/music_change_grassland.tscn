@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://ov04622e34fs"]
 
 [ext_resource type="Script" uid="uid://biscjrcjyu8w6" path="res://script/world/music_change_by_area.gd" id="1_dkja6"]
-[ext_resource type="AudioStream" uid="uid://81t6yayopsjw" path="res://Assets/audio/music/SoundtrackStarfieldSavePoint.mp3" id="2_ga1ss"]
+[ext_resource type="AudioStream" uid="uid://81t6yayopsjw" path="res://assets/audio/music/SoundtrackStarfieldSavePoint.mp3" id="2_ga1ss"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hhfpc"]
 size = Vector2(16, 16)

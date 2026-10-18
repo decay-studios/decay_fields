@@ -7,7 +7,7 @@ path="res://.godot/imported/sterling_001_wakeup.wav-d5cb4646469764373ff0fbac938e
 
 [deps]
 
-source_file="res://Assets/audio/voices/sterling_001_wakeup.wav"
+source_file="res://assets/audio/voices/sterling_001_wakeup.wav"
 dest_files=["res://.godot/imported/sterling_001_wakeup.wav-d5cb4646469764373ff0fbac938e857d.sample"]
 
 [params]

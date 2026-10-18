@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cr6mafjpf5no3"
-path="res://.godot/imported/sterling_001_c1.wav-50b0452d9d6460d27e80605f66d3eebb.sample"
+path="res://.godot/imported/sterling_001_c1.wav-c1b3a88f01fb594efd8db1269d388aa6.sample"
 
 [deps]
 
-source_file="res://Assets/audio/voices/chapter1_wakeup/sterling_001_c1.wav"
-dest_files=["res://.godot/imported/sterling_001_c1.wav-50b0452d9d6460d27e80605f66d3eebb.sample"]
+source_file="res://assets/audio/voices/chapter1_wakeup/sterling_001_c1.wav"
+dest_files=["res://.godot/imported/sterling_001_c1.wav-c1b3a88f01fb594efd8db1269d388aa6.sample"]
 
 [params]
 

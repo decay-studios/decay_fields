@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://di6f1jfdwl30j"]
 
 [ext_resource type="Script" uid="uid://bwtlsakxepx62" path="res://script/npc/monpok.gd" id="1_0kgss"]
-[ext_resource type="Texture2D" uid="uid://dxpv5nwjhvea4" path="res://Assets/Sprites/characters/monpok/Monpok_04.png" id="2_0kgss"]
+[ext_resource type="Texture2D" uid="uid://dxpv5nwjhvea4" path="res://assets/sprites/characters/monpok/Monpok_04.png" id="2_0kgss"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3qklw"]
 atlas = ExtResource("2_0kgss")

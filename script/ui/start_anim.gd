@@ -5,7 +5,7 @@ extends CanvasLayer
 # Called when the node enters the scene tree for the first time.
 #func _ready() -> void:
 #	transition_black.visible=false
-#	anim_play("res://Scenes/start.tscn")
+#	anim_play("res://scenes/start.tscn")
 	
 # Animation
 

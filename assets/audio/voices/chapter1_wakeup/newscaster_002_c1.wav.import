@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://eehus4qvalq1"
-path="res://.godot/imported/newscaster_002_c1.wav-afc302d38c2f68a5dacfeedb249ada8d.sample"
+path="res://.godot/imported/newscaster_002_c1.wav-53daa971e66c68fa615541d2d610f1c1.sample"
 
 [deps]
 
-source_file="res://Assets/audio/voices/chapter1_wakeup/newscaster_002_c1.wav"
-dest_files=["res://.godot/imported/newscaster_002_c1.wav-afc302d38c2f68a5dacfeedb249ada8d.sample"]
+source_file="res://assets/audio/voices/chapter1_wakeup/newscaster_002_c1.wav"
+dest_files=["res://.godot/imported/newscaster_002_c1.wav-53daa971e66c68fa615541d2d610f1c1.sample"]
 
 [params]
 

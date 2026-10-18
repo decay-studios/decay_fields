@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://81t6yayopsjw"
-path="res://.godot/imported/SoundtrackStarfieldSavePoint.mp3-d038bb5fe7c8b2911f97cfcc6187e2cb.mp3str"
+path="res://.godot/imported/SoundtrackStarfieldSavePoint.mp3-38469b47771edf2653f954b970b4f580.mp3str"
 
 [deps]
 
-source_file="res://Assets/audio/music/SoundtrackStarfieldSavePoint.mp3"
-dest_files=["res://.godot/imported/SoundtrackStarfieldSavePoint.mp3-d038bb5fe7c8b2911f97cfcc6187e2cb.mp3str"]
+source_file="res://assets/audio/music/SoundtrackStarfieldSavePoint.mp3"
+dest_files=["res://.godot/imported/SoundtrackStarfieldSavePoint.mp3-38469b47771edf2653f954b970b4f580.mp3str"]
 
 [params]
 

@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://soeyg2w5qwpb"]
 
-[ext_resource type="PackedScene" uid="uid://ce2tqbhdypsiw" path="res://Scenes/npc/npc.tscn" id="1_oc6g0"]
-[ext_resource type="PackedScene" uid="uid://daigvy7a3x4jm" path="res://Scenes/main.tscn" id="2_oc6g0"]
-[ext_resource type="AudioStream" uid="uid://wrbxwhemmcax" path="res://Assets/audio/voices/npc_profmueller_001.wav" id="2_qyrhn"]
+[ext_resource type="PackedScene" uid="uid://ce2tqbhdypsiw" path="res://scenes/npc/npc.tscn" id="1_oc6g0"]
+[ext_resource type="PackedScene" uid="uid://daigvy7a3x4jm" path="res://scenes/main.tscn" id="2_oc6g0"]
+[ext_resource type="AudioStream" uid="uid://wrbxwhemmcax" path="res://assets/audio/voices/npc_profmueller_001.wav" id="2_qyrhn"]
 
 [node name="NPCTest" type="Node2D" unique_id=1554951800]
 
