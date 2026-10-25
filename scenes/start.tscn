@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://uhhyawe5y67t"]
 
 [ext_resource type="Script" uid="uid://df4evypamom1v" path="res://script/ui/start.gd" id="1_3bxa3"]
-[ext_resource type="PackedScene" path="res://scenes/world/maps/map_world_monpok.res" id="2_iceld"]
 [ext_resource type="PackedScene" uid="uid://soeyg2w5qwpb" path="res://scenes/debug/npc_test.tscn" id="3_5ogh5"]
 [ext_resource type="PackedScene" path="res://scenes/world/maps/map_house_start.res" id="4_7pwkw"]
 [ext_resource type="Script" uid="uid://cs5b0cis7llst" path="res://script/ui/start_anim.gd" id="5_iceld"]
@@ -17,7 +16,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_3bxa3")
-scene_1 = ExtResource("2_iceld")
 scene_2 = ExtResource("3_5ogh5")
 scene_3 = ExtResource("4_7pwkw")
 
@@ -34,20 +32,6 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("6_7pwkw")
 stretch_mode = 6
-
-[node name="monpok_map" type="Button" parent="." unique_id=771893402]
-z_index = 10
-layout_mode = 0
-offset_left = 170.0
-offset_top = 394.0
-offset_right = 282.0
-offset_bottom = 420.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
-theme_override_styles/normal = ExtResource("5_o3wvq")
-theme_override_styles/pressed = ExtResource("6_pg4io")
-theme_override_styles/hover = ExtResource("6_pg4io")
-text = "M O N P O K _ M A P"
 
 [node name="npc_test" type="Button" parent="." unique_id=867678566]
 z_index = 10
@@ -105,7 +89,6 @@ grow_vertical = 2
 mouse_filter = 2
 color = Color(0, 0.0781342, 0, 1)
 
-[connection signal="pressed" from="monpok_map" to="." method="_on_monpok_map_pressed"]
 [connection signal="pressed" from="npc_test" to="." method="_on_npc_test_pressed"]
 [connection signal="pressed" from="house_map" to="." method="_on_house_map_pressed"]
 [connection signal="pressed" from="Laden" to="." method="_on_laden_pressed"]

@@ -1,6 +1,5 @@
 extends Control
 
-@export var scene_1 : PackedScene
 @export var scene_2 : PackedScene
 @export var scene_3 : PackedScene
 @onready var video_player = $dfintro/AspectRatioContainer/VideoStreamPlayer
@@ -16,10 +15,6 @@ func _ready() -> void:
 	else:
 		push_error("Error: VideoPlayer not found. Please contact the developers.")
 
-func _on_monpok_map_pressed() -> void:
-	if scene_1:
-		get_tree().change_scene_to_packed(scene_1)
-		
 func _on_intro_video_finished() -> void:
 	var fade_overlay = $dfintro/dfintro_fade
 	
@@ -54,8 +49,6 @@ func _on_laden_pressed() -> void:
 	var saved_data = SaveSystem.load_game()
 	Global.geladene_position = saved_data["player_position"]
 	Global.hat_position = true
-	Global.inventar = saved_data["inventory"]
-	Global.hat_inventar = true
 	get_tree().change_scene_to_file(saved_data["current_scene"])
 
 

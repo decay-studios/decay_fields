@@ -4,7 +4,6 @@ class_name Player
 const SPEED = float(130.0)
 const FRICTION = int(5000)
 const ACCELARATION = int(600)
-var balls: int = int(0)
 
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
 @onready var tap: AudioStreamPlayer2D = $tap
@@ -16,9 +15,6 @@ func _ready() -> void:
 		Global.hat_position = false
 
 func _physics_process(delta: float) -> void:
-	%GameManager.update_balls(balls)
-	if %GameManager.all_locked == true:
-		return
 	var direction := Input.get_vector("move_left", "move_right", "move_up", "move_down")
 	
 	if direction.x > 0:
@@ -51,11 +47,3 @@ func _physics_process(delta: float) -> void:
 
 func _on_tap_timer_timeout() -> void:
 	tap.play()
-	
-
-
-
-func _on_area_2d_area_entered(area: Area2D) -> void:
-	if area.is_in_group("balls"):
-		balls += 1
-		area.queue_free()

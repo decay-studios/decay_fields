@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://drmrayqpc02hp"]
 
 [ext_resource type="Script" uid="uid://df4evypamom1v" path="res://script/ui/start.gd" id="1_3bxa3"]
-[ext_resource type="PackedScene" path="res://scenes/world/maps/map_world_monpok.res" id="2_r48yj"]
 [ext_resource type="PackedScene" uid="uid://soeyg2w5qwpb" path="res://scenes/debug/npc_test.tscn" id="3_5ogh5"]
 [ext_resource type="PackedScene" path="res://scenes/world/maps/map_house_start.res" id="4_lb6bl"]
 [ext_resource type="StyleBox" uid="uid://dl16rvfnw7n3k" path="res://assets/styles/Buttons/Normal.tres" id="5_o3wvq"]
@@ -23,7 +22,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_3bxa3")
-scene_1 = ExtResource("2_r48yj")
 scene_2 = ExtResource("3_5ogh5")
 scene_3 = ExtResource("4_lb6bl")
 
@@ -78,21 +76,6 @@ offset_right = -904.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_hhfpc")
-
-[node name="monpok_map" type="Button" parent="TextureRect/Panel" unique_id=771893402]
-z_index = 10
-layout_mode = 0
-offset_left = 265.0
-offset_top = 244.0
-offset_right = 417.0
-offset_bottom = 270.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("8_2rmuv")
-theme_override_styles/normal = ExtResource("5_o3wvq")
-theme_override_styles/pressed = ExtResource("6_pg4io")
-theme_override_styles/hover = ExtResource("6_pg4io")
-text = "M O N P O K _ M A P"
 
 [node name="npc_test" type="Button" parent="TextureRect/Panel" unique_id=867678566]
 z_index = 10
@@ -154,7 +137,6 @@ theme_override_styles/pressed = ExtResource("6_pg4io")
 theme_override_styles/hover = ExtResource("6_pg4io")
 text = "Q U I T"
 
-[connection signal="pressed" from="TextureRect/Panel/monpok_map" to="." method="_on_monpok_map_pressed"]
 [connection signal="pressed" from="TextureRect/Panel/npc_test" to="." method="_on_npc_test_pressed"]
 [connection signal="pressed" from="TextureRect/Panel/house_map" to="." method="_on_house_map_pressed"]
 [connection signal="pressed" from="TextureRect/Panel/Laden" to="." method="_on_laden_pressed"]

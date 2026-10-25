@@ -86,9 +86,6 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mxepk"]
 size = Vector2(20, 7)
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_qhqgy"]
-radius = 11.0
-
 [node name="Player" type="CharacterBody2D" unique_id=2134270175]
 z_index = 10
 collision_layer = 2
@@ -111,12 +108,4 @@ bus = &"SFX"
 [node name="tap_timer" type="Timer" parent="." unique_id=1951771502]
 wait_time = 0.3
 
-[node name="BallRecognition" type="Area2D" parent="." unique_id=1570292214]
-collision_layer = 0
-collision_mask = 4
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="BallRecognition" unique_id=33575650]
-shape = SubResource("CircleShape2D_qhqgy")
-
 [connection signal="timeout" from="tap_timer" to="." method="_on_tap_timer_timeout"]
-[connection signal="area_entered" from="BallRecognition" to="." method="_on_area_2d_area_entered"]
