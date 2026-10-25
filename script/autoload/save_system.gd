@@ -3,15 +3,12 @@ extends Node
 const SAVE_PATH = "user://savegame.cfg"
 
 # Funktion zum Speichern des gesamten Spielstands
-func save_game(scene_path: String, player_position: Vector2, inventory: Dictionary):
+func save_game(scene_path: String, player_position: Vector2):
 	var config = ConfigFile.new()
 	
 	# Szene und Position speichern
 	config.set_value("World", "current_scene", scene_path)
 	config.set_value("World", "player_position", player_position)
-	
-	# Inventar (Liste von Gegenständen) speichern
-	config.set_value("Player", "inventory", inventory)
 	
 	var error = config.save(SAVE_PATH)
 	if error == OK:
@@ -26,9 +23,8 @@ func load_game() -> Dictionary:
 	
 	# Standardwerte, falls kein Speicherstand existiert (z. B. beim ersten Spielstart)
 	var default_data = {
-		"current_scene": "res://maps/World1.tscn", # Pfad zu deiner Start-Map anpassen!
+		"current_scene": "res://scenes/world/maps/map_house_start.res",
 		"player_position": Vector2(100, 100),       # Startposition im Spiel
-		"inventory": {}                             # Leeres Inventar zu Beginn
 	}
 	
 	if error != OK:
@@ -39,6 +35,5 @@ func load_game() -> Dictionary:
 	var loaded_data = {}
 	loaded_data["current_scene"] = config.get_value("World", "current_scene", default_data["current_scene"])
 	loaded_data["player_position"] = config.get_value("World", "player_position", default_data["player_position"])
-	loaded_data["inventory"] = config.get_value("Player", "inventory", default_data["inventory"])
 	
 	return loaded_data

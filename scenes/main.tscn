@@ -1,29 +1,12 @@
 [gd_scene format=3 uid="uid://daigvy7a3x4jm"]
 
 [ext_resource type="Script" uid="uid://butjxhu61r4sf" path="res://script/world/game_manager.gd" id="1_21xkr"]
-[ext_resource type="Texture2D" uid="uid://32e85y88xdbm" path="res://assets/sprites/essential/essential_inventory.png" id="2_6iyac"]
 [ext_resource type="PackedScene" uid="uid://c5laq2ns3o04k" path="res://scenes/player/player.tscn" id="2_bo1nx"]
-[ext_resource type="PackedScene" uid="uid://bap6386e1jobk" path="res://scenes/ui/inventory.tscn" id="3_ee4r6"]
-[ext_resource type="Texture2D" uid="uid://w2ooy4bjsvym" path="res://assets/sprites/characters/monpok/monpokball.png" id="3_h1bgf"]
-[ext_resource type="PackedScene" uid="uid://titfgcjosssa" path="res://scenes/npc/on_monpok_captured.tscn" id="3_wsu2k"]
 [ext_resource type="AudioStream" uid="uid://jdprius474c0" path="res://assets/audio/music/SoundtrackStarfieldSavePoint.mp3" id="7_344ge"]
 [ext_resource type="Texture2D" uid="uid://bpxvh46ggl70j" path="res://assets/sprites/essential/essential_joystick.png" id="10_fdnlq"]
 [ext_resource type="PackedScene" uid="uid://dafbnkgmjxy4j" path="res://scenes/ui/pause_menu.tscn" id="12_6iyac"]
 [ext_resource type="Script" uid="uid://s6e5ki73nbgs" path="res://script/world/touch_buttons.gd" id="12_jkdf5"]
-[ext_resource type="PackedScene" uid="uid://cmfshvvasmq6w" path="res://scenes/npc/monpokball_giver.tscn" id="16_k12tt"]
 [ext_resource type="PackedScene" uid="uid://bdukfilqwbfkr" path="res://scenes/ui/start_anim.tscn" id="24_3pmx8"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_qcma1"]
-atlas = ExtResource("2_6iyac")
-region = Rect2(32, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_4d4es"]
-atlas = ExtResource("2_6iyac")
-region = Rect2(64, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ee4r6"]
-atlas = ExtResource("2_6iyac")
-region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d1ilt"]
 texture = ExtResource("10_fdnlq")
@@ -51,90 +34,6 @@ unique_name_in_owner = true
 script = ExtResource("1_21xkr")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="GameManager" unique_id=296014457]
-
-[node name="Control" type="Control" parent="GameManager/CanvasLayer" unique_id=1264197857]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-mouse_filter = 2
-
-[node name="TextureButton" type="TextureButton" parent="GameManager/CanvasLayer/Control" unique_id=1544088089]
-z_index = 10
-layout_mode = 1
-anchors_preset = -1
-offset_left = 10.0
-offset_top = 10.0
-offset_right = 10.0
-offset_bottom = 10.0
-scale = Vector2(4, 4)
-texture_normal = SubResource("AtlasTexture_qcma1")
-texture_pressed = SubResource("AtlasTexture_4d4es")
-texture_hover = SubResource("AtlasTexture_ee4r6")
-metadata/_edit_use_anchors_ = true
-
-[node name="Inventory" parent="GameManager/CanvasLayer" unique_id=692365001 instance=ExtResource("3_ee4r6")]
-unique_name_in_owner = true
-
-[node name="Control2" type="Control" parent="GameManager/CanvasLayer/Inventory" unique_id=142644984]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-mouse_filter = 2
-
-[node name="TextureButton" type="TextureButton" parent="GameManager/CanvasLayer/Inventory/Control2" unique_id=430380405]
-z_index = 10
-layout_mode = 1
-anchors_preset = -1
-offset_left = 10.0
-offset_top = 10.0
-offset_right = 10.0
-offset_bottom = 10.0
-scale = Vector2(4, 4)
-texture_normal = SubResource("AtlasTexture_qcma1")
-texture_pressed = SubResource("AtlasTexture_4d4es")
-texture_hover = SubResource("AtlasTexture_ee4r6")
-metadata/_edit_use_anchors_ = true
-
-[node name="Balls" type="Control" parent="GameManager/CanvasLayer" unique_id=326966861]
-layout_mode = 3
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -40.0
-offset_bottom = 40.0
-grow_horizontal = 0
-
-[node name="TextureRect" type="TextureRect" parent="GameManager/CanvasLayer/Balls" unique_id=1474442706]
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -40.0
-offset_bottom = 40.0
-grow_horizontal = 0
-texture = ExtResource("3_h1bgf")
-
-[node name="Label" type="Label" parent="GameManager/CanvasLayer/Balls" unique_id=1299586483]
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -65.0
-offset_top = -7.0
-offset_right = -25.0
-offset_bottom = 81.0
-grow_horizontal = 0
-theme_override_font_sizes/font_size = 50
-text = "0"
-
-[node name="OnMonpokCaptured" parent="GameManager" unique_id=405112698 instance=ExtResource("3_wsu2k")]
-visible = false
 
 [node name="Player" parent="." unique_id=2134270175 instance=ExtResource("2_bo1nx")]
 unique_name_in_owner = true
@@ -180,10 +79,4 @@ action_down = &"move_down"
 
 [node name="StartAnim" parent="." unique_id=1327585273 instance=ExtResource("24_3pmx8")]
 
-[node name="Dropper" parent="." unique_id=1360828205 instance=ExtResource("16_k12tt")]
-position = Vector2(348, 32)
-
 [node name="PauseMenu" parent="." unique_id=448313180 instance=ExtResource("12_6iyac")]
-
-[connection signal="pressed" from="GameManager/CanvasLayer/Control/TextureButton" to="GameManager" method="_on_touch_screen_button_pressed"]
-[connection signal="pressed" from="GameManager/CanvasLayer/Inventory/Control2/TextureButton" to="GameManager" method="_on_touch_screen_button_pressed"]
