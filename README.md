@@ -48,20 +48,23 @@ Press <kbd>E</kbd> or the <kbd>I</kbd> button top left to open your inventory.
 <summary><b>View Licenses</b></summary>
 <br>
   
-Copyright (C) 2026 Your Name <your.email@example.com>. All rights reserved.
+Copyright (C) 2026 Decay Studios. All rights reserved. 
 
-Strictly Confidential & Proprietary.
+Strictly Confidential & Proprietary. 
 
-This software and all associated files are the sole intellectual property 
-of the copyright holder. 
+This software and all associated files are the sole intellectual property of the copyright holder. 
 
-Permission is hereby DENIED to anyone:
-- To use, copy, modify, merge, or distribute this software.
-- To create derivative works or fork this repository.
-- To use this software for any commercial or non-commercial purposes.
+Permission is hereby GRANTED to anyone: 
 
-Any unauthorized use, copying, or distribution of this software constitutes 
-a violation of copyright law and will be prosecuted.
+* To run and play this software in its unmodified form for personal, non-commercial use.
+
+Permission is hereby DENIED to anyone: 
+
+* To copy, modify, merge, or distribute this software.
+* To create derivative works or fork this repository.
+* To use this software, its source code, or its assets for any commercial purposes.
+
+Any unauthorized copying, modification, distribution, or commercial use of this software constitutes a violation of copyright law and will be prosecuted.
 <br>
 **Audio & Voices:** The voice lines in the `/assets/audio/` directory were generated with [Stable Audio 3](https://github.com/Stability-AI/stable-audio-3) via [ComfyUI](https://github.com/Comfy-Org/ComfyUI) and [VoiceStudio](https://github.com/debpalash/VoiceStudio).
 
