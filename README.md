@@ -48,7 +48,21 @@ Press <kbd>E</kbd> or the <kbd>I</kbd> button top left to open your inventory.
 <summary><b>View Licenses</b></summary>
 <br>
   
-This game is open-source and licensed under the **GNU General Public License (GPL)**. <br>
+Copyright (C) 2026 Your Name <your.email@example.com>. All rights reserved.
+
+Strictly Confidential & Proprietary.
+
+This software and all associated files are the sole intellectual property 
+of the copyright holder. 
+
+Permission is hereby DENIED to anyone:
+- To use, copy, modify, merge, or distribute this software.
+- To create derivative works or fork this repository.
+- To use this software for any commercial or non-commercial purposes.
+
+Any unauthorized use, copying, or distribution of this software constitutes 
+a violation of copyright law and will be prosecuted.
+<br>
 **Audio & Voices:** The voice lines in the `/assets/audio/` directory were generated with [Stable Audio 3](https://github.com/Stability-AI/stable-audio-3) via [ComfyUI](https://github.com/Comfy-Org/ComfyUI) and [VoiceStudio](https://github.com/debpalash/VoiceStudio).
 
 </details>
